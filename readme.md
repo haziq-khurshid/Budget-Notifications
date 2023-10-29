@@ -23,7 +23,6 @@ To set up the database and schema, follow these steps:
 2. Run `postgres-db.sql` to initialize the schema and make the necessary changes.
 
 3. Run `migration.sql` file for the following tasks:
-   - Add a new column `a_notification_sent` to the `t_shops` table, which is a boolean indicating whether a notification has been sent.
    - Create a new table `t_notifications` to store notification records.
    - Insert sample data into the `t_budgets` table for testing.
 
