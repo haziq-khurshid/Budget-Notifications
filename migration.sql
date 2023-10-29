@@ -1,7 +1,3 @@
-ALTER TABLE t_shops
-ADD COLUMN a_notification_sent BOOLEAN NOT NULL DEFAULT false;
-
-
 CREATE TABLE t_notifications (
     a_id SERIAL PRIMARY KEY,
     a_shop_id INT NOT NULL,
